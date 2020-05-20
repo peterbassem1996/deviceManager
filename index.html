@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Device Management</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <div class="row main">
+    <nav class="nav main-nav col-12">
+      <a class="nav-link active-main-nav" href="#">Home</a>
+      <a class="nav-link main-nav-link" href="#">Devices</a>
+      <a class="nav-link main-nav-link" href="#">Scheduled Tasks</a>
+      <a class="nav-link main-nav-link" href="#">Configuration tools</a>
+      <a class="nav-link main-nav-link" href="#">Compliance</a>
+      <a class="nav-link main-nav-link" href="#">Settings</a>
+    </nav>
+    <h3 class="col-12 heading">Devices > Device Management</h3>
+    <div class="alert alert-primary" role="alert">
+      Manage devices on this page
+    </div>
+    <div class="col-6">
+      <form>
+        <fieldset>
+          <legend>Device Details</legend>
+          <div class="row" id="infobox">
+            <div class="col-3">
+              <p class="info">Device Name:</p>
+              <p class="info">IP Address:</p>
+              <p class="info">Vendor:</p>
+              <p class="info">Model:</p>
+              <p class="info">Catagory:</p>
+              <p class="info">Connection Type:</p>
+              <p class="info">Status:</p>
+            </div>
+            <div class="col-9">
+              <p class="info">Device Name</p>
+              <p class="info">IP Address</p>
+              <p class="info">Vendor</p>
+              <p class="info">Model</p>
+              <p class="info">Catagory</p>
+              <p class="info">Connection Type</p>
+              <p class="info">Status</p>
+            </div>
+          </div>
+          <div class="row butonsRow">
+            <button type="button" name="button">Edit Device</button>
+            <button type="button" name="button">Manual Download</button>
+            <button type="button" name="button">Run Config snippet</button>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+    <div class="col-6">
+      <form>
+        <fieldset>
+          <legend>Device Configuration</legend>
+          <div class="row butonsRow">
+            <button type="button" name="button" id="showAll">Show All</button>
+            <button type="button" name="button" id="closeAll">Close All</button>
+          </div>
+          <div class="explorer">
+            <ul>
+              <li id="initial"><img src="images/office.png" /><a class="explorerListElement" href="#"> 2020</a>
+                <ul class="sub">
+                  <li><img src="images/office.png" /> <a class="explorerListElement" href="#">May</a>
+                    <ul class="sub">
+                      <li><img src="images/office.png" /> <a href="#">13</a></li>
+                      <li class="explorerListElement"><img src="images/office.png" /> <a class="explorerListElement" href="#">12</a>
+                        <ul class="sub">
+                          <li><img src="images/file.png" /> <a href="#">a</a></li>
+                          <li><img src="images/file.png" /> <a href="#">b</a></li>
+                          <li><img src="images/file.png" /> <a href="#">c</a></li>
+                        </ul>
+                      </li>
+                      <li><img src="images/office.png" /> <a href="#">11</a></li>
+                      <li><img src="images/office.png" /> <a href="#">10</a></li>
+                      <li><img src="images/office.png" /> <a href="#">09</a></li>
+                      <li><img src="images/office.png" /> <a href="#">08</a></li>
+                      <li><img src="images/office.png" /> <a href="#">07</a></li>
+                      <li><img src="images/office.png" /> <a href="#">06</a></li>
+                      <li><img src="images/office.png" /> <a href="#">05</a></li>
+                      <li><img src="images/office.png" /> <a href="#">04</a></li>
+                      <li><img src="images/office.png" /> <a href="#">03</a></li>
+                      <li><img src="images/office.png" /> <a href="#">02</a></li>
+                      <li><img src="images/office.png" /> <a href="#">01</a></li>
+
+                  </li>
+                </ul>
+                  <li><img src="images/office.png" /> <a class="explorerListElement" href="#">Apr</a></li>
+                  <li><img src="images/office.png" /> <a class="explorerListElement" href="#">Mar</a></li>
+                  <li><img src="images/office.png" /> <a class="explorerListElement" href="#">Feb</a></li>
+                  <li><img src="images/office.png" /> <a class="explorerListElement" href="#">Jan</a></li>
+              </li>
+
+            </ul>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+
+<script src="index.js" charset="utf-8"></script>
+
+</html>

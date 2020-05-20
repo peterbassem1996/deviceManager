@@ -1,0 +1,102 @@
+.main-nav{
+  background-color: #536281;
+  border: 1px solid #ffffff;
+}
+.secondary-nav{
+  background-color: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  font-size: 0.75rem;
+  padding: 0;
+}
+.secondary-nav-link{
+  border-right: 1px solid #CFCFCF;
+  color: #5D6281;
+}
+.active-secondary-nav{
+  background-color: #F5F6FA;
+  border-right: 1px solid #CFCFCF;
+  color: #5D6281;
+  font-weight: bold;
+}
+.main-nav-link{
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.active-main-nav{
+  background-color: #27293D;
+  color: #ffffff;
+}
+.main{
+  margin: 0.1rem;
+  width: 99.5%;
+}
+.heading{
+  color: #00436C;
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+.alert{
+  margin: 0.4rem;
+  width: 99%;
+}
+
+legend {
+    color: #ff0000;
+    font-size: 1rem;
+    width: auto;
+    margin: 1rem 0 1rem 0;
+}
+fieldset{
+  border: 1px solid #C1CDCD;
+  font-size: 1rem;
+  padding: 1rem;
+}
+form{
+  margin: 3% 0;
+  font-size: 1rem;
+}
+button{
+  margin-right: 0.2rem;
+}
+#infobox{
+  margin: 0 1rem;
+  border: 1px solid #C0C0C0;
+  background-color: #EEEEEE;
+  padding: 1rem;
+}
+.butonsRow{
+  margin: 0.2em 1rem;
+}
+.info{
+  margin: 0;
+}
+.push{
+  margin-left: 10px;
+}
+.required{
+  color: #ff0000;
+  display: inline-block;
+  float:left;
+}
+
+.input-div{
+  margin: 0 0 20px 10px;
+}
+select{
+  width: 75%;
+}
+label{
+  margin-bottom: 0;
+}
+
+.explorer li{
+  list-style: none;
+}
+
+.explorer{
+  margin: 1rem 0;
+}
+
+.invisible{
+  display: none;
+}
