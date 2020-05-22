@@ -100,3 +100,9 @@ label{
 .invisible{
   display: none;
 }
+.addACommand{
+  margin: 10px;
+}
+#catId{
+  width: 300px;
+}
